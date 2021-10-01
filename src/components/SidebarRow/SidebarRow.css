@@ -20,6 +20,15 @@
 }
 
 .sidebarRow:hover > .sidebarRow__icon {
-   color: #2423C7;
-  }
-  
+  color: #2423c7;
+}
+.sidebarRow.selected {
+  background-color: lightgrey;
+}
+
+.sidebarRow.selected > .sidebarRow__icon {
+  color: #2423c7;
+}
+.sidebarRow.selected > .sidebarRow__title {
+  font-weight: bold;
+}
